@@ -5,6 +5,7 @@ Este proyecto fué generado con [Angular CLI](https://github.com/angular/angular
 ## Requerimientos
 
 1.- Tener instalado NodeJS (https://nodejs.org/en/) Versión estable Recomendable
+
 2.- Angular (https://angular.io/guide/setup-local)
 
 Para verificar que tengas NodeJS instalado correctamente en una Terminal o CMD ejecuta el comando `nmp --version`, deberá de salirte la versión de node instalada.
