@@ -38,3 +38,29 @@ Si todo sale bien, se te mostrará un mensaje que dice "Succesfully initialized 
 Ya tendrás la siguiente salida de tu proyecto en la dirección `http://localhost:4200/`
 
 ![](docs/images/angular-index.png)
+
+
+## Integrando Bootstrap
+
+Hay varias formas de integrar bootstrap a un proyecto Angular, aquí te mostramos una de ellas
+
+
+Paso 1: Instalando dependencias:
+
+Ejecuta el comando `npm install bootstrap jquery @popperjs/core` en el proyecto para instalar las dependencias de bootstrap.
+
+
+Paso 2: Angular.json
+
+Abre el archivo "angular.json" y en las secciones de styles y scripts, modifica el siguiente código para que se vea de la siguiente forma:
+
+"styles": [
+  "node_modules/bootstrap/dist/css/bootstrap.min.css",
+  "src/styles.scss"
+],
+
+"scripts": [
+  "node_modules/jquery/dist/jquery.min.js",
+  "node_modules/@popperjs/core/dist/umd/popper.min.js",
+  "node_modules/bootstrap/dist/js/bootstrap.min.js"
+]
